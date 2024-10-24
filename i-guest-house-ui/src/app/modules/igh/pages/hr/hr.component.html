@@ -1,0 +1,12 @@
+<div class="hr-main">
+    <app-navbar
+      [brandName]="'Intellect Guest House'"
+      [navItems]="[
+        { label: 'Home', link: '/igh/hr' },
+        { label: 'My Requests', link: '/igh/hr/requestsTable' },
+        { label: 'My Bookings', link: '/igh/hr/yourBookings' }
+      ]">
+    </app-navbar>
+    <router-outlet></router-outlet>
+  </div>
+  
